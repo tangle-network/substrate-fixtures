@@ -1,0 +1,5 @@
+outs:
+- md5: 9c00cd97c42bef50fcfdb4b8878be0fb.dir
+  size: 240092288
+  nfiles: 35
+  path: substrate-fixtures

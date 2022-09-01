@@ -2,3 +2,5 @@
     remote = substrate-fixtures
 ['remote "substrate-fixtures"']
     url = https://protocol-substrate-fixtures.s3.amazonaws.com/substrate-fixtures/
+['remote "aws"']
+    url = s3://protocol-substrate-fixtures/substrate-fixtures/

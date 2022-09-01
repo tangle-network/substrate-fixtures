@@ -1,4 +1,4 @@
-# solidity-fixtures
+# substrate-fixtures
 Zero-Knowledge files required for generating proofs proofs with arkworks.
 
 This repository uses DVC to manage large fixtures files and uploads to a public AWS S3 bucket. This allows anyone to fetch the fixtures, while minimizing impact on git size.
@@ -9,7 +9,7 @@ This repository uses DVC to manage large fixtures files and uploads to a public 
 
 ### Pushing new fixtures to remote storage
 
-After generating new fixtures (likely from `protocol-solidity`), you should run the following steps:
+After generating new fixtures, you should run the following steps:
 
 ```
 dvc add substrate-fixtures
